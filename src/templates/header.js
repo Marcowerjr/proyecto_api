@@ -5,8 +5,8 @@ const Header = () => {
                 <h1> <a href='/'> API Simpsons </a>  </h1>
             </div>
             <div class="Header-nav">
-                <a href="#/about"/>
-                    About
+                <a href="/"/>
+                    Recargar personaje
                 </a>
             </div>
         </div>

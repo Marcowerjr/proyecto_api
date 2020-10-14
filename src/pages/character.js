@@ -11,9 +11,8 @@ const Character = async () => {
         <h2>${character.character}</h2>
       </article>
       <article class="Characters-card">
-        <h3>Character name: <span>${character.character}</span></h3>
-        <h3>Quote: <span>${character.quote}</span></h3>
-        <h3>characterDirection: <span>${character.characterDirection}</span></h3>
+        <h3>Nombre: <span>${character.character}</span></h3>
+        <h3>Frase célebre: <span>${character.quote}</span></h3>
       </article>
     </div>
   `;

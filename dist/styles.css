@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #ffd90f;
   color: #3c484e;
   font-family: 'Open Sans', sans-serif;
+  
 }
 
 .Header-main {
@@ -83,6 +85,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
+  border-color: black;
 }
 
 .Characters-item h2 {

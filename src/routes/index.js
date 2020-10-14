@@ -1,5 +1,4 @@
 import Header from '../templates/header'
-import Home from '../pages/home'
 import Character from '../pages/character'
 import error404 from '../pages/error'
 
