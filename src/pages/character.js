@@ -3,17 +3,17 @@ import getData from '../utils/getData';
 
 const Character = async () => {
   const id = getHash();
-  const character = await getData(id);
+  const character = await getData(getHash());
   const view = `
     <div class="Characters-inner">
       <article class="Characters-card">
-        <img src="${image}" alt="${name}">
-        <h2>${name}</h2>
+        <img src="${character.image}" alt="${character.name}">
+        <h2>${character.name}</h2>
       </article>
       <article class="Characters-card">
-        <h3>Character name: <span>${character}</span></h3>
-        <h3>Quote: <span>${quote}</span></h3>
-        <h3>characterDirection: <span>${characterDirection}</span></h3>
+        <h3>Character name: <span>${character.character}</span></h3>
+        <h3>Quote: <span>${character.quote}</span></h3>
+        <h3>characterDirection: <span>${character.characterDirection}</span></h3>
       </article>
     </div>
   `;

@@ -1,7 +1,8 @@
-const API = 'https://rickandmortyapi.com/api/character/'
+const API = 'https://thesimpsonsquoteapi.glitch.me/quotes/'
+
 // condicion ? resultado true : resultado false
-const getData = async(id) =>{
-    const apiURL = id ? `${API}${id}` : API+'?page=2';
+const getData = async() =>{
+    const apiURL = `${API}`;
     try{
         const response = await fetch(apiURL);
         const data = await response.json();

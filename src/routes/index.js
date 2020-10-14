@@ -5,11 +5,11 @@ import error404 from '../pages/error'
 
 //Utils
 import getHash from '../utils/getHash'
+import getData from '../utils/getData'
 import resolveRoute from '../utils/resolveRoutes'
 
 const routes = {
-    '/': Home,
-    '/character': Character,
+    '/': Character
 }
 
 const router = async () =>{
@@ -23,7 +23,7 @@ const router = async () =>{
 
     let render = routes[route] ? routes[route] : error404
 
-    content.innerHTML = await render()
+    content.innerHTML = await Character()
 }
 
 export default router
