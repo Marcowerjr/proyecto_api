@@ -6,10 +6,10 @@ const getData = async() =>{
     try{
         const response = await fetch(apiURL);
         const data = await response.json();
-        return data;
+        //console.log(data[0].image);
+        return data[0];
     }catch (error){
         console.log('fetch error', error)
     }
-}
-
+    }
 export default getData
