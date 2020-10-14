@@ -1,0 +1,33 @@
+{
+  "name": "proyecto_api",
+  "version": "1.0.0",
+  "description": "API de los Simpsons",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcowerjr/APISimpsons.git"
+  },
+  "keywords": [
+    "API",
+    "Simpsons"
+  ],
+  "author": "Marcos Caballero, Jaziel Alvarado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marcowerjr/APISimpsons/issues"
+  },
+  "homepage": "https://github.com/Marcowerjr/APISimpsons#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
