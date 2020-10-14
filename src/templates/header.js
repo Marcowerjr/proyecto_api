@@ -2,7 +2,7 @@ const Header = () => {
     const view = `
         <div class="Header-main">
             <div class="Header-logo">
-                <h1> <a href='/'> Web Services </a>  </h1>
+                <h1> <a href='/'> API Simpsons </a>  </h1>
             </div>
             <div class="Header-nav">
                 <a href="#/about"/>

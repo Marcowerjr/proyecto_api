@@ -7,16 +7,13 @@ const Character = async () => {
   const view = `
     <div class="Characters-inner">
       <article class="Characters-card">
-        <img src="${character.image}" alt="${character.name}">
-        <h2>${character.name}</h2>
+        <img src="${image}" alt="${name}">
+        <h2>${name}</h2>
       </article>
       <article class="Characters-card">
-        <h3>Episodes: <span>${character.episode.length}</span></h3>
-        <h3>Status: <span>${character.status}</span></h3>
-        <h3>Species: <span>${character.species}</span></h3>
-        <h3>Gender: <span>${character.gender}</span></h3>
-        <h3>Origin: <span>${character.origin.name}</span></h3>
-        <h3>Last Location: ${character.location.name}</h3>
+        <h3>Character name: <span>${character}</span></h3>
+        <h3>Quote: <span>${quote}</span></h3>
+        <h3>characterDirection: <span>${characterDirection}</span></h3>
       </article>
     </div>
   `;
