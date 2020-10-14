@@ -3,7 +3,7 @@ import getData from '../utils/getData';
 
 const Character = async () => {
   const id = getHash();
-  const character = await getData(id);
+  // const character = await getData(id);
   const view = `
     <div class="Characters-inner">
       <article class="Characters-card">
