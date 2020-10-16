@@ -1,4 +1,5 @@
 import Header from '../templates/header'
+import Footer from '../templates/footer'
 import Character from '../pages/character'
 import error404 from '../pages/error'
 
@@ -14,6 +15,8 @@ const routes = {
 const router = async () =>{
     const header = null || document.getElementById('Header')
     const content = null || document.getElementById('content')
+    const footer = null || document.getElementById('Footer')
+
 
     header.innerHTML = await Header();
 
@@ -23,6 +26,8 @@ const router = async () =>{
     let render = routes[route] ? routes[route] : error404
 
     content.innerHTML = await Character()
+
+    footer.innerHTML = await Footer()
 }
 
 export default router

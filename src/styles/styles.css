@@ -24,7 +24,14 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: 'SimpsonsFont';
+}
 
+.Footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'SimpsonsFont';
+  font-size: 10px;
 }
 
 .Header a {
