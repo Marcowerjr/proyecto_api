@@ -15,7 +15,7 @@ Tecnologías de la Información
 
 Fecha: 18/10/2020 a las 23:59
 
-Universidad: Universidad Tecnológica de Chihuahua
+Universidad Tecnológica de Chihuahua
 
 # Descripción del proyecto
 Nuestro proyecto consiste en buscar una API y adaptarlo a nuestro código.
