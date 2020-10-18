@@ -1,6 +1,10 @@
-/* @import url('http://www.freefonts100.com/descargar/fuente/simpson-font/S/14258'); */
-
+/* 
+En este parte del código consiste en todos los estilos y formato de la imagen 
+*/
 @font-face {
+  /*
+  En esta parte exportamos la letra de usa el programa de los the sipmson
+  */
   font-family: 'SimpsonsFont';
   src: url('../../assets/fonts/SimpsonsFont.eot');
   src: url('../../assets/fonts/SimpsonsFont.eot')
@@ -13,6 +17,9 @@
 }
 
 body {
+  /*
+  En esta parte le pusimos un color amarrillo como lo the simpson
+  */
   margin: 0;
   padding: 0;
   background-color: #ffd90f;

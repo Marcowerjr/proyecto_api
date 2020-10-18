@@ -11,7 +11,9 @@ import resolveRoute from '../utils/resolveRoutes'
 const routes = {
     '/': Character
 }
-
+/*
+La función router sirve para mostrar los datos del sitio web.
+*/
 const router = async () =>{
     const header = null || document.getElementById('Header')
     const content = null || document.getElementById('content')

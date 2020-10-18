@@ -1,3 +1,6 @@
+/*
+Este código consiste en mostrar los integrantes del equipo y el grupo al cual pertenecemos en el Footer del sitio web.
+*/
 const Footer = () => {
     const view = `
         <div class="Footer-main">
